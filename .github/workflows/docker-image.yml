@@ -20,4 +20,4 @@ jobs:
       uses: docker/build-push-action@v3.1.0
       with:
         push: true
-        tags: print-manager-backend:07.2022
+        tags: ghcr.io/${{ github.repository_owner }}/print-manager-backend:2022.07.1
