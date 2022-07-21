@@ -13,8 +13,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    
+    
     - name: Build and push Docker image
       uses: docker/build-push-action@v3.1.0
       with:
         push: true
-        tags: printer-manager-backend-image:$(date +%s)
+        tags: printer-manager-backend-image:07.2022
