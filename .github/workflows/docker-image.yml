@@ -11,9 +11,10 @@ jobs:
   build-and-push:
 
     runs-on: ubuntu-latest
+    permissions:
+      packages: write
 
     steps:
-    
     
     - name: Build and push Docker image
       uses: docker/build-push-action@v3.1.0
