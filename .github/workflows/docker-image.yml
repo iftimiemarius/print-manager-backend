@@ -20,4 +20,4 @@ jobs:
       uses: docker/build-push-action@v3.1.0
       with:
         push: true
-        tags: printer-manager-backend-image:07.2022
+        tags: print-manager-backend:07.2022
